@@ -10,10 +10,12 @@ h1{
   text-align: center;
 
 }
-/* header{
+header{
   position: fixed;
   height: 50px;
-} */
+  width: 100%;
+  z-index: 2;
+}
 nav{
   position: relative;
 }
@@ -21,7 +23,6 @@ ul{
   position: absolute;
   right: 20px;
   top: 20px;
-  z-index: 2;
 }
 li{
   display: inline-block;
