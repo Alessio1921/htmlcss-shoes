@@ -1,0 +1,16 @@
+li:hover .nav-form{
+  background-color: rgb(228, 228, 228);
+  color: red;
+  box-shadow: -0.5em 0 .4em rgb(6, 153, 211);
+  text-shadow:  0 0 1em blue, 0 0 0.2em blue;
+}
+a:active .nav-form{
+  transform: rotate(0.5turn);
+}
+
+.content:hover img{
+  transform: scale(1, 0.5);
+}
+.content:hover h1{
+  font-size: 4rem ;
+}
