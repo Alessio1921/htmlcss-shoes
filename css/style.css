@@ -9,19 +9,16 @@ h1{
   padding: 20px;
   text-align: center;
 }
-nav{
-  position: relative;
-  z-index: 2;
-}
-ul{
+header{
   position: fixed;
   right: 20px;
   top: 20px;
+  z-index: 2;
 }
-li{
+nav li{
   display: inline-block;
 }
-a{
+nav li a{
   text-decoration: none;
 }
 .container{
